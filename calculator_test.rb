@@ -12,4 +12,8 @@ class CalculatorTest < Test::Unit::TestCase
     assert_equal(5, total)
   end
 
+  def test_multiply
+    total = multiply(5, 2)
+    assert_equal(10, total)
+  end
 end
